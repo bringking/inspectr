@@ -6,6 +6,13 @@
   "bin": {
     "inspectr": "./bin/inspectr.js"
   },
+  "keywords": [
+    "react",
+    "command",
+    "cli",
+    "propTypes",
+    "inspection"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RinconStrategies/inspectr"
