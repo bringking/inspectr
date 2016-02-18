@@ -1,10 +1,14 @@
 {
   "name": "inspectr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Inspect React components from the command line",
   "main": "bin/inspectr.js",
   "bin": {
     "inspectr": "./bin/inspectr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinconStrategies/inspectr"
   },
   "files": [
     "bin"
