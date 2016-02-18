@@ -1,6 +1,6 @@
 {
   "name": "inspectr",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Inspect React components from the command line",
   "main": "bin/inspectr.js",
   "bin": {
@@ -21,6 +21,7 @@
     "bin"
   ],
   "scripts": {
+    "prepublish": "npm run build",
     "lint": "eslint src test",
     "test": "mocha --compilers js:babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
