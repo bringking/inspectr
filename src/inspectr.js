@@ -57,7 +57,7 @@ try {
 const componentInstance = componentFromExport(mod, component);
 
 if (!componentInstance) {
-    console.log('Failed to find instance of React Component or Statless Function');
+    console.log('Failed to find instance of React Component or Stateless Function');
     process.exit(1);
 }
 
