@@ -1,6 +1,6 @@
 {
   "name": "inspectr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Inspect React components from the command line",
   "main": "bin/inspectr.js",
   "bin": {
