@@ -1,4 +1,5 @@
 # inspectr
+[![Build Status](https://travis-ci.org/RinconStrategies/inspectr.svg?branch=master)](https://travis-ci.org/RinconStrategies/inspectr)
 A CLI for inspecting React components to reveal propTypes and defaultProps values.
 
 ##Installation
