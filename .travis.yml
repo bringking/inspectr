@@ -4,5 +4,4 @@ node_js:
   - "4.1"
   - "4.0"
 install:
-  - npm install -g babel-cli
   - npm install
