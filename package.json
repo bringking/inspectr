@@ -44,8 +44,8 @@
     "find-root": "^0.1.1",
     "lodash.isfunction": "^3.0.8",
     "lodash.isobject": "^3.0.2",
-    "react": "^0.14.7",
-    "react-addons-test-utils": "^0.14.7",
+    "react": ">=0.14.0 <16.0.0",
+    "react-addons-test-utils": ">=0.14.0 <16.0.0",
     "react-docgen": "^2.7.0",
     "recast": "^0.11.0"
   },
