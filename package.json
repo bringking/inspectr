@@ -56,6 +56,6 @@
     "eslint": "2.8.0",
     "eslint-plugin-mocha": "2.2.0",
     "mocha": "^2.3.4",
-    "source-map": "^0.5.3"
+    "source-map": "^0.5.4"
   }
 }
