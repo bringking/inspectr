@@ -3,11 +3,11 @@
 # inspectr
 A CLI for inspecting React components to reveal propTypes and defaultProps values.
 
-##Installation
+## Installation
 ```bash
 npm install -g inspectr
 ```
-##Usage
+## Usage
 inspectr takes two arguments 
 ```bash
 inspectr <module> [component] 
@@ -16,14 +16,14 @@ inspectr takes the -f option to specify a specific file path to inspect
 ```bash
 inspectr <module-path> [component] -f 
 ```
-###module
+### module
 The `module` argument is the name of the module to search for a React Component to inspect or if you pass `-f` the relative file path to a module to inspect. 
 
-###component
+### component
 The `component` argument is optional if you are inspecting default exports, however to inspect named exports, you need to pass the name of the export here. 
 
-##Examples
-###Inspecting node modules
+## Examples
+### Inspecting node modules
 Assuming you want to inspect react-router and are in your project root, run -
 ```bash
 inspectr react-router
@@ -79,14 +79,14 @@ inspectr react-router Link
 └───────────────────┴────────────────────────┴───────────────┘
 
 ```
-###Inspecting file paths
+### Inspecting file paths
 To inspect your own components you can use file paths with the `-f` option.
 
 ```bash
 inspectr app/javascripts/components/button.jsx -f
 ```
 
-##Limitations
+## Limitations
 Currently inspectr can only determine PropTypes through evaluting the `checkType` returned from the React PropTypes definition. So this means it supports the following propTypes-
 * React.PropTypes.array
 * React.PropTypes.bool
